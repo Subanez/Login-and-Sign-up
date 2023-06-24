@@ -1,0 +1,103 @@
+body{
+    background-image: url("assets/img00007.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginbox{
+    background-color: black;
+    width:400px;
+    padding:40px;
+    overflow:hidden;
+    margin-left:450px;
+    margin-top:200px;
+    box-shadow: 0px 0px 80px -7px rgb(212,203,203);
+    border-radius: 5%;
+}
+.loginbox h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+
+}
+.loginbox input{
+    width:77%;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+.loginbutton{
+    color:black;
+    width:70%;
+    font-size: 25px;
+}
+.loginbutton:hover{
+    background-color: darkorange;
+}
+.registerlink{
+    margin-left: 100px;
+}
+.registerlink span{
+    color: aliceblue;
+    font-size: 20px;
+}
+.registerlink a{
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 15px;
+}
+.registerbox{
+    background-color: black;
+    width:300px;
+    padding:20px;
+    overflow:hidden;
+    margin-left:400px;
+    margin-top:0px;
+    box-shadow: 0px 0px 80px -7px rgb(212,203,203);
+    border-radius: 5%;
+} 
+.registerbox h2{
+    color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+.registerbox input{
+    width:77%;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+.loginhtml span{
+    color: aliceblue;
+    font-size: 20px;
+}
+.loginhtml a{
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 15px;
+}
+#submission{
+    width:100px;
+    
+    background-color: orangered;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

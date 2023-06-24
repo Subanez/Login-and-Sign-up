@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" type="text/css" href="login_register.css">
+    <script src="register.js"></script>
+
+</head>
+<body> 
+    <div class="registerbox">
+
+        <h2>sign up</h2>
+        <form id="validate" action="login_register.php" method="post" onsubmit="validateform(event)">
+    <input type="text" placeholder="Username" name="username" required>
+    <input type="Email" placeholder="Enter Email" name="email" required>
+    <input type="date" placeholder="DOB" name="DOB" required>
+    <input type="number" placeholder="Age" name="Age" required>
+    <input type="tel" placeholder="Phone number" name="phone_num" required>
+    <input type="password" placeholder="enter password" name="password" required>
+     <input type="submit" name="save" id="submission">
+    
+
+    <div class="loginhtml">
+        <span>If you are already registered ?</span><a href="login.html">Click here<b>to go login</b></a>
+    </div>
+
+        </form>
+    </div>
+    
+</body>
+</html>
